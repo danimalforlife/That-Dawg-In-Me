@@ -1,0 +1,45 @@
+title: That Dawg In Me
+originalAuthor: danimalforlife
+description: Fixes Pluto.
+dependencies: 
+assets:
+
+
+###Cerberus###
+- name: obj/B_HE020.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: pluto/PLUTO.mdlx
+
+- name: obj/B_HE020_GM.mdlx
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: pluto/PLUTO.mdlx
+
+###Textures###
+- name: remastered/obj/B_HE020.mdlx/-0.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: pluto/-0.png
+
+- name: remastered/obj/B_HE020.mdlx/-1.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: pluto/-1.png
+
+
+- name: remastered/obj/B_HE020_GM.mdlx/-0.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: pluto/-0.png
+
+- name: remastered/obj/B_HE020_GM.mdlx/-1.dds
+  package: kh2_fifth
+  method: copy
+  source:
+  - name: pluto/-1.png
